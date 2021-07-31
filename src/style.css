@@ -1,0 +1,10 @@
+/* ./your-css-folder/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+.text{
+    @apply text-white bg-opacity-10 bg-gray-400;
+}
+}
